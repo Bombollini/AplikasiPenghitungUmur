@@ -273,7 +273,7 @@ txtAreaPeristiwa.setText("");
             java.util.logging.Logger.getLogger(PenghitungUmurFrame.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
-
+ 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
@@ -282,6 +282,7 @@ txtAreaPeristiwa.setText("");
         });
     }
 
+    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnHitung;
     private javax.swing.JButton btnKeluar;

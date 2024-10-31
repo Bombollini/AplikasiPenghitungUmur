@@ -135,7 +135,8 @@ public class PenghitungUmurHelper {
 
             in.close();
             conn.disconnect();
-
+  
+            
             JSONObject json = new JSONObject(content.toString());
             return json.getString("translation");
         } catch (Exception e) {
